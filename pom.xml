@@ -20,7 +20,7 @@
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
-    <version>14</version>
+    <version>21</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -33,6 +33,7 @@
     <connection>scm:git:git@github.com:tomitribe/quartz-openejb-shade.git</connection>
     <developerConnection>scm:git:git@github.com:tomitribe/quartz-openejb-shade.git</developerConnection>
     <url>scm:git:git@github.com:tomitribe/quartz-openejb-shade.git</url>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <repository>
