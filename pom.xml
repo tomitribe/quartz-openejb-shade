@@ -30,11 +30,23 @@
   <name>OpenEJB :: Dependencies :: Quartz Shade</name>
 
   <scm>
-    <connection>scm:svn:https://svn.apache.org/repos/asf/tomee/deps/trunk/quartz-openejb-shade</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/tomee/deps/trunk/quartz-openejb-shade
-    </developerConnection>
-    <url>http://svn.apache.org/viewvc/tomee/deps/trunk/quartz-openejb-shade/</url>
+    <connection>scm:git:git@github.com:tomitribe/quartz-openejb-shade.git</connection>
+    <developerConnection>scm:git:git@github.com:tomitribe/quartz-openejb-shade.git</developerConnection>
+    <url>scm:git:git@github.com:tomitribe/quartz-openejb-shade.git</url>
   </scm>
+  <distributionManagement>
+    <repository>
+      <id>tomitribe.releases.https</id>
+      <name>Tomitribe Release Distribution Repository</name>
+      <url>https://repository.tomitribe.com/service/local/staging/deploy/maven2</url>
+    </repository>
+
+    <snapshotRepository>
+      <id>tomitribe.snapshots.https</id>
+      <name>Tomitribe Development Snapshot Repository</name>
+      <url>https://repository.tomitribe.com/content/repositories/snapshots-tomitribe</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <properties>
     <quartz.version>2.2.4</quartz.version>
