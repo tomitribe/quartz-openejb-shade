@@ -26,14 +26,14 @@
 
   <groupId>org.apache.openejb.shade</groupId>
   <artifactId>quartz-openejb-shade</artifactId>
-  <version>2.2.5-SNAPSHOT</version>
+  <version>2.2.4-TT.1</version>
   <name>OpenEJB :: Dependencies :: Quartz Shade</name>
 
   <scm>
     <connection>scm:git:git@github.com:tomitribe/quartz-openejb-shade.git</connection>
     <developerConnection>scm:git:git@github.com:tomitribe/quartz-openejb-shade.git</developerConnection>
     <url>scm:git:git@github.com:tomitribe/quartz-openejb-shade.git</url>
-    <tag>HEAD</tag>
+    <tag>quartz-openejb-shade-2.2.4-TT.1</tag>
   </scm>
   <distributionManagement>
     <repository>
